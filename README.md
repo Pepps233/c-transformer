@@ -2,7 +2,7 @@
 
 A transformer-based language model implemented from scratch in C and CUDA. No frameworks. The full stack is covered: a BPE tokenizer, CPU and GPU forward passes, analytical backpropagation, AdamW training, custom CUDA kernels (Flash Attention, fused LayerNorm), and a standalone inference binary.
 
-Karpathy's [llm.c](https://github.com/karpathy/llm.c) is used as a reference — diffed against to catch bugs, not copied.
+Karpathy's [llm.c](https://github.com/karpathy/llm.c) is used as a reference
 
 ---
 
